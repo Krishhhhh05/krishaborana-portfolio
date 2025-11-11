@@ -36,6 +36,20 @@ npm i
 npm run dev
 ```
 
+## Run locally (Windows - cmd.exe)
+
+If you're on Windows and using the default cmd.exe shell, run these commands from a terminal inside the project folder:
+
+```bat
+cd /d "C:\Users\JUMBO\OneDrive\Desktop\new portfolio\krishaborana-portfolio"
+npm install
+npm run dev
+```
+
+Notes:
+- The Vite dev server uses port 8080 by default (configured in `vite.config.ts`). If that port is already in use, Vite will pick the next available port (for example 8081). Check the terminal output after running `npm run dev` to see the exact local URL (e.g. http://localhost:8080).
+- If you need to force a specific host/port you can run: `npm run dev -- --host --port 8080`.
+
 **Edit a file directly in GitHub**
 
 - Navigate to the desired file(s).
