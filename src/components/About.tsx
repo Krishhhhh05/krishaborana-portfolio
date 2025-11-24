@@ -36,7 +36,7 @@ const About = () => {
           <p className="text-lg text-foreground/80 text-center mb-12 leading-relaxed">
             I'm a Computer Science graduate student at Rutgers University, passionate about building 
             intelligent, scalable systems that blend AI, data, and product design. My work spans 
-            full-stack development, machine learning, and research-driven innovation — always with a 
+            full-stack development, machine learning, and research-driven innovation, always with a 
             focus on real-world impact.
           </p>
 
